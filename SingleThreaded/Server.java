@@ -11,7 +11,7 @@ public class Server {
     public void run() throws IOException, UnknownHostException {
         int port = 8010;
         ServerSocket socket = new ServerSocket(port);
-        socket.setSoTimeout(20000);
+        socket.setSoTimeout(10000);
         while(true) {
             System.out.println("Server is listening on port " + port);
             Socket acceptedConnection = socket.accept();
