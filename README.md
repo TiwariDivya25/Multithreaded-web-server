@@ -100,17 +100,18 @@ To evaluate scalability, the server implementations were tested under **high loa
 ## Project Structure
 
 ```
-project-root
+├── MultiThreaded
+│   ├── Client.java
+│   └── Server.java
 │
-├── single-threaded-server/
-│   └── SimpleSocketServer.java
+├── SingleThreaded
+│   ├── Client.java
+│   └── Server.java
 │
-├── multithreaded-server/
-│   └── MultiThreadedServer.java
+├── ThreadPool
+│   └── Server.java
 │
-├── threadpool-server/
-│   └── ThreadPoolServer.java
-│
+├── Demo Multithreaded Web Server.mp4
 └── README.md
 ```
 
@@ -172,4 +173,3 @@ This project demonstrates how **server architecture choices impact scalability, 
 
 It also provides hands-on experience with **building resilient backend systems using Java concurrency tools**.
 
----
